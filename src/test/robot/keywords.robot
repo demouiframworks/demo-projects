@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        variables.resource
+Resource        variables.robot
 
 *** Keywords ***
 Open browser to login page
