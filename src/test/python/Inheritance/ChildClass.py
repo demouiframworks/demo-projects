@@ -1,12 +1,8 @@
 from test.python.Inheritance.ParentClass import Person
 
 
-class Child(Person):
-    pass
-
-
-c = Child("hi", "sowmya")
-c.printname()
+# class Child(Person):
+#     pass
 
 
 class Child2(Person):
@@ -18,5 +14,6 @@ class Child2(Person):
         print(self.firstname, self.lastname)
 
 
-c2 = Child2("hi", "Chintu")
-c2.printname()
+if __name__ == "main":
+    c2 = Child2("hi", "Chintu")
+    c2.printname()
